@@ -1,0 +1,96 @@
+/*DEVELOPER: Craig Kunz, IS117-102, Spring, 2025 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+body {
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar logo */
+#logo {
+    height: 50px;
+    padding: 2px;
+    border: lightgray solid 2px;
+    border-radius: 25px;
+}
+
+/* Navbar adjustments */
+.navbar {
+    padding: 0.8rem 1rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Headline below carousel */
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    padding-top: 1rem;
+}
+
+#esportsHistory {
+    width: 25rem;
+    height: 15rem;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.fgcImage {
+    height: 20rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.fpsImage {
+    height: 20rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+h5 {
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+#esports {
+    color: #FF4F00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#esportsLink:hover, #esportsLink:focus {
+    color: #FFA500;
+    text-decoration: underline;
+}
+
+#esportsLink:active {
+    color: #FF0000;
+}

@@ -1,0 +1,54 @@
+/*DEVELOPER: Craig Kunz, IS117-102, Spring, 2025 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+body {
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar logo */
+#logo {
+    height: 50px;
+    padding: 2px;
+    border: lightgray solid 2px;
+    border-radius: 25px;
+}
+
+/* Navbar adjustments */
+.navbar {
+    padding: 0.8rem 1rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Adds spacing between fields */
+form .form-group,
+form .form-check {
+    margin: 1rem;
+}
+
+
+
+
